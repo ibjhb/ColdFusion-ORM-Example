@@ -1,0 +1,755 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>AP administration panel - A massive administration panel</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/ui.core.css" />
+<link rel="stylesheet" type="text/css" href="css/ui.datepicker.css" />
+<link rel="stylesheet" type="text/css" href="css/ui.theme.css" />
+<link rel="stylesheet" type="text/css" href="css/ui.tabs.css" />
+<link rel="stylesheet" type="text/css" href="css/ui.dialog.css" />
+<link rel="stylesheet" type="text/css" href="colorbox/colorbox.css" />
+<link rel="stylesheet" type="text/css" href="smarkup/smarkup/skins/style.css" />
+<link rel="stylesheet" type="text/css" href="smarkup/smarkup/skins/default/style.css" />
+<!--[if IE]>
+	<link rel="stylesheet" type="text/css" href="colorbox/colorbox-ie.css" />
+<![endif]-->
+<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.7.1.custom.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/akeditable.js"></script>
+<script type="text/javascript" src="js/jQuery Cycle.js"></script>  
+<script type="text/javascript" src="js/jquery.colorbox-min.js"></script>
+<script type="text/javascript" src="js/jquery.example.min.js"></script>
+<script type="text/javascript" src="js/sorttable.js"></script>
+<script type="text/javascript" src="js/multiple_checkbox.js"></script>
+<script type="text/javascript" src="js/supersleight.js"></script>
+<script type="text/javascript" src="smarkup/smarkup/jquery.smarkup.js"></script>
+<script type="text/javascript" src="smarkup/smarkup/smarkup.js"></script>
+<script type="text/javascript" src="smarkup/smarkup/conf/html/conf.js"></script>
+
+</head>
+
+<body>
+ <div id="container">
+
+        <!-- Dialog window -->
+        <div id="dialog" title="Welcome to the AP administration panel" style=" display:none;">
+            <p>Welcome to the AP administration panel. AP is a massive admin theme and comes with lot's of working stuff so lets go and have a testdrive!</p>
+        </div>
+   
+   <!--| HEADER/TOP |-->
+    <div id="header">
+      <div id="logo">
+       <img src="images/logo.jpg" alt="" title="" />
+       <h2>A massive administration panel</h2>
+      </div>
+      
+        <div id="userid">
+            <div class="userid-user"><img src="images/icons/user.png" alt="" /><p>Welcome <b>Administrator</b></p></div>
+            <div class="userid-login"><img src="images/icons/calendar.png" alt=""/><p>Last login on 21-04-09</p></div>
+            <div class="userid-link"><img src="images/icons/app.png" alt=""/><p><a href="#">Visit website</a> | <a href="#">Logout</a></p></div>
+        </div>
+        
+		<div id="nav"> 
+       
+            <ul class="current">
+                <li><a href="#">Main Page</a></li>
+            </ul>
+            <ul class="sub_active">
+                <li class="current_sub"><a href="#">lorem ipsum 1</a></li>
+                <li><a href="#">lorem ipsum 2</a></li>
+                <li><a href="#">lorem ipsum 3</a></li>
+                <li><a href="#">lorem ipsum 4</a></li>
+                <li><a href="#">lorem ipsum 5</a></li>
+                <li><a href="#">lorem ipsum 6</a></li>
+                <li><a href="#">lorem ipsum 7</a></li>
+            </ul>
+            
+            <ul class="select">
+                <li><a href="#">Server Settings
+            <!--[if IE 7]><!--></a><!--<![endif]--><!--[if lte IE 6]><table><tr><td><![endif]-->
+            <ul class="sub">
+                <li><a href="#">lorem ipsum 8</a></li>
+                <li><a href="#">lorem ipsum 9</a></li>
+                <li><a href="#">lorem ipsum 10</a></li>
+                <li><a href="#">lorem ipsum 11</a></li>
+                <li><a href="#">lorem ipsum 12</a></li>
+                <li><a href="#">lorem ipsum 13</a></li>
+                <li><a href="#">lorem ipsum 14</a></li>
+            </ul>
+                <!--[if lte IE 6]></td></tr></table></a><![endif]--></li>
+            </ul>
+              
+            <ul class="select">
+                <li><a href="#">User Accounts
+            <!--[if IE 7]><!--></a><!--<![endif]--><!--[if lte IE 6]><table><tr><td><![endif]-->
+            <ul class="sub">
+                <li><a href="#">lorem ipsum 15</a></li>
+                <li><a href="#">lorem ipsum 16</a></li>
+                <li><a href="#">lorem ipsum 17</a></li>
+                <li><a href="#">lorem ipsum 18</a></li>
+            </ul>
+                <!--[if lte IE 6]></td></tr></table></a><![endif]--></li>
+            </ul>
+                     
+            <ul class="select">
+                <li><a href="#">Products Management
+            <!--[if IE 7]><!--></a><!--<![endif]--><!--[if lte IE 6]><table><tr><td><![endif]-->
+            <ul class="sub">
+                <li><a href="#">lorem ipsum 19</a></li>
+                <li><a href="#">lorem ipsum 20</a></li>
+                <li><a href="#">lorem ipsum 21</a></li>
+                <li><a href="#">lorem ipsum 22</a></li>
+                <li><a href="#">lorem ipsum 23</a></li>
+            </ul>
+                <!--[if lte IE 6]></td></tr></table></a><![endif]--></li>
+            </ul>
+            
+            <ul class="select">
+                <li><a href="#">Page Management
+            <!--[if IE 7]><!--></a><!--<![endif]--><!--[if lte IE 6]><table><tr><td><![endif]-->
+            <ul class="sub">
+                <li><a href="#">lorem ipsum 24</a></li>
+                <li><a href="#">lorem ipsum 25</a></li>
+                <li><a href="#">lorem ipsum 26</a></li>
+                <li><a href="#">lorem ipsum 27</a></li>
+                <li><a href="#">lorem ipsum 28</a></li>
+                <li><a href="#">lorem ipsum 29</a></li>
+            </ul>
+                <!--[if lte IE 6]></td></tr></table></a><![endif]--></li>
+            </ul>   
+              
+            <ul class="select">
+                <li><a href="#">Statistics
+            <!--[if IE 7]><!--></a><!--<![endif]--><!--[if lte IE 6]><table><tr><td><![endif]-->
+            <ul class="sub">
+                <li><a href="#">lorem ipsum 30</a></li>
+                <li><a href="#">lorem ipsum 31</a></li>
+                <li><a href="#">lorem ipsum 32</a></li>
+                <li><a href="#">lorem ipsum 33</a></li>
+                <li><a href="#">lorem ipsum 34</a></li>
+            </ul>
+                <!--[if lte IE 6]></td></tr></table></a><![endif]--></li>
+            </ul>    
+    
+            <ul class="select">
+                <li><a href="#">Media
+            <!--[if IE 7]><!--></a><!--<![endif]--><!--[if lte IE 6]><table><tr><td><![endif]-->
+            <ul class="sub">
+                <li><a href="#">lorem ipsum 35</a></li>
+                <li><a href="#">lorem ipsum 36</a></li>
+                <li><a href="#">lorem ipsum 37</a></li>
+                <li><a href="#">lorem ipsum 38</a></li>
+                <li><a href="#">lorem ipsum 39</a></li>
+                <li><a href="#">lorem ipsum 40</a></li>
+                <li><a href="#">lorem ipsum 41</a></li>
+            </ul>
+                <!--[if lte IE 6]></td></tr></table></a><![endif]--></li>
+            </ul>   
+              
+            <ul class="select">
+                <li><a href="#">SEO
+            <!--[if IE 7]><!--></a><!--<![endif]--><!--[if lte IE 6]><table><tr><td><![endif]-->
+            <ul class="sub">
+                <li><a href="#">lorem ipsum 42</a></li>
+                <li><a href="#">lorem ipsum 43</a></li>
+                <li><a href="#">lorem ipsum 44</a></li>
+                <li><a href="#">lorem ipsum 45</a></li>
+                <li><a href="#">lorem ipsum 46</a></li>
+                <li><a href="#">lorem ipsum 47</a></li>
+                <li><a href="#">lorem ipsum 48</a></li>        
+            </ul>
+                <!--[if lte IE 6]></td></tr></table></a><![endif]--></li>
+            </ul>   
+            
+		</div><!--| end nav |-->
+        <form action="" method="post">
+            <div id="search">
+            	<input type="text" name="s" id="s" value="" /><button  id="send" value="" type="button" name="ss"></button>
+            </div>
+        </form>       
+    </div><!--| end header |-->
+    
+    <!--| CONTENT/MID |-->
+    <div id="content">
+    
+      <div id="col-left-780">
+      
+            <div id="tabs">
+                <ul>
+                    <li><a href="#tabs-1">Tab 1</a></li>
+                    <li><a href="#tabs-2">Tab 2</a></li>
+                    <li><a href="#tabs-3">Tab 3</a></li>
+                </ul>
+                <div id="tabs-1">
+                    <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin.</p>
+                </div>
+                <div id="tabs-2">
+                    <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+                </div>
+                <div id="tabs-3">
+                    <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+                    <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+                </div>
+            </div>
+
+          <div class="dialog-box-succes">
+              <div class="dialog-left">
+                  <img src="images/icons/succes.png" class="dialog-ico" alt=""/>
+                  Message send successfully!
+              </div>
+              <div class="dialog-right">
+                  <img src="images/icons/succes-delete.jpg" class="del-x" alt=""/>
+              </div>
+          </div> 
+
+          <div class="dialog-box-error">
+              <div class="dialog-left">
+                  <img src="images/icons/error.png" class="dialog-ico" alt=""/>
+                  There is some sort of error!
+              </div>
+              <div class="dialog-right">
+                  <img src="images/icons/error-delete.jpg" class="del-x" alt=""/>
+              </div>
+          </div>  
+
+          <div class="dialog-box-warning">
+              <div class="dialog-left">
+                  <img src="images/icons/warning.png" class="dialog-ico" alt=""/>
+                  You have got some sort of warning!
+              </div>
+              <div class="dialog-right">
+                  <img src="images/icons/warning-delete.jpg" class="del-x" alt=""/>
+              </div>
+          </div>  
+             
+          <div class="dialog-box-information">
+              <div class="dialog-left">
+                  <img src="images/icons/information.png" class="dialog-ico" alt=""/>
+                  This is a information message!
+              </div>
+              <div class="dialog-right">
+                  <img src="images/icons/information-delete.jpg" class="del-x" alt=""/>
+              </div>
+          </div> 
+                
+      <ul id="sortable">
+        <li>
+            <div class="box-780-head">
+                <h2>Edit Me 1</h2>
+                <div class="bnav">
+                <a href="javascript:void(null);" onclick="akedit('ajax.php?mode=eg1','toggle1',{
+		        type : 'textarea',
+				name : 'toggle1',
+				width: '700px',
+	            submit:'save'
+				});">
+                	<img src="images/icons/edit.jpg" alt=""/>
+                </a>
+                <a href="javascript:void(null);" class="toggle" id="gle1">
+                    <img src="images/icons/toggle-plus.jpg" class="close" alt=""/>
+                    <img src="images/icons/toggle-min.jpg" class="open" style="display:none;" alt=""/>
+                </a>
+                <img src="images/icons/delete.jpg" class="delete" alt=""/>
+                </div>
+            </div>
+            <div class="box-780-body" id="toggle1">You can edit me, just click on the edit button at the top right.....</div>
+        </li>
+        <li>
+            <div class="box-780-head">
+                <h2>Edit Me 2</h2>
+                <div class="bnav">
+                <a href="javascript:void(null);" onclick="akedit('ajax.php?mode=eg2','toggle2',{
+		        type : 'textarea',
+				name : 'toggle2',
+				width: '232px',
+	            submit:'save'
+				});">
+                	<img src="images/icons/edit.jpg" alt=""/>
+                </a>
+                <a href="javascript:void(null);" class="toggle" id="gle2">
+                    <img src="images/icons/toggle-plus.jpg" class="close" alt=""/>
+                    <img src="images/icons/toggle-min.jpg" class="open" style="display:none;" alt=""/>
+                </a>
+                <img src="images/icons/delete.jpg" class="delete" alt=""/>
+                </div>
+            </div>
+            <div class="box-780-body" id="toggle2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel odio a purus ornare aliquet in et erat. Mauris at elit pretium massa eleifend rhoncus quis eu est. Aenean eu lorem tortor. Nulla eu feugiat mi. Fusce at metus sed urna luctus consectetur. Nullam justo ligula, tempor et ultrices nec, pharetra non lacus.<b>Vivamus,</b> vitae lacinia magna. Proin enim leo, bibendum viverra fringilla eget, sollicitudin sit amet massa. Vestibulum molestie neque at dui convallis mollis. In non erat vel ante posuere eleifend.</div>
+        </li>
+        <li>
+            <div class="box-780-head">
+                <h2>User Table</h2>
+                <div class="bnav2">
+                <a href="javascript:void(null);" class="toggle" id="gle3">
+                    <img src="images/icons/toggle-plus.jpg" class="close" alt=""/>
+                    <img src="images/icons/toggle-min.jpg" class="open" style="display:none;" alt=""/>
+                </a>
+                <img src="images/icons/delete.jpg" class="delete" alt=""/>
+                </div>
+            </div>
+            <div class="box-780-body" id="toggle3">
+                <table class="sortable" id="tb-1">
+                    <tr>
+                        <th class="th-1">Id</th>
+                        <th class="th-2">Username</th>
+                        <th class="th-3">Name</th>
+                        <th class="th-4">Email</th>
+                        <th class="th-5">Status</th>
+                        <th class="th-6">Created On</th>
+                        <th class="th-7">Actions</th>
+                    </tr>
+                    <tr>
+                        <td class="td-1">1.</td>
+                        <td class="td-2">MR John</td>
+                        <td class="td-3">John Smith</td>
+                        <td class="td-4">johnsmith@dummy.com</td>
+                        <td class="td-5">Active</td>
+                        <td class="td-6">12-05-2009</td>
+                        <td class="td-7">
+                            <a href="#"><img src="images/icons/edit-user.png" class="tb-1-action-edit" alt=""/></a>
+                            <a href="#"><img src="images/icons/lock.png" class="tb-1-action-lock" alt=""/></a>
+                            <a href="#"><img src="images/icons/delete.png" class="tb-1-action-delete" alt=""/></a>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td class="td-1">2.</td>
+                        <td class="td-2">MR John</td>
+                        <td class="td-3">John Smith</td>
+                        <td class="td-4">johnsmith@dummy.com</td>
+                        <td class="td-5">Deactive</td>
+                        <td class="td-6">12-05-2009</td>
+                        <td class="td-7">
+                            <a href="#"><img src="images/icons/edit-user.png" class="tb-1-action-edit" alt=""/></a>
+                            <a href="#"><img src="images/icons/unlock.png" class="tb-1-action-lock" alt=""/></a>
+                            <a href="#"><img src="images/icons/delete.png" class="tb-1-action-delete" alt=""/></a>
+                        </td>
+                    </tr>  
+                    <tr>
+                        <td class="td-1">3.</td>
+                        <td class="td-2">Johnny</td>
+                        <td class="td-3">John Smith</td>
+                        <td class="td-4">johnny@dummy.com</td>
+                        <td class="td-5">Active</td>
+                        <td class="td-6">12-05-2009</td>
+                        <td class="td-7">
+                            <a href="#"><img src="images/icons/edit-user.png" class="tb-1-action-edit" alt=""/></a>
+                            <a href="#"><img src="images/icons/lock.png" class="tb-1-action-lock" alt=""/></a>
+                            <a href="#"><img src="images/icons/delete.png" class="tb-1-action-delete" alt=""/></a>
+                        </td>
+                    </tr>                 
+                     <tr>
+                        <td class="td-1">4.</td>
+                        <td class="td-2">MR John</td>
+                        <td class="td-3">John Smith</td>
+                        <td class="td-4">johnsmith@dummy.com</td>
+                        <td class="td-5">Active</td>
+                        <td class="td-6">01-01-2008</td>
+                        <td class="td-7">
+                            <a href="#"><img src="images/icons/edit-user.png" class="tb-1-action-edit" alt=""/></a>
+                            <a href="#"><img src="images/icons/lock.png" class="tb-1-action-lock" alt=""/></a>
+                            <a href="#"><img src="images/icons/delete.png" class="tb-1-action-delete" alt=""/></a>
+                        </td>
+                    </tr>   
+                </table>
+            </div>
+        </li>
+        <li>
+            <div class="box-780-head">
+                <h2>Product Table</h2>
+                <div class="bnav2">
+                <a href="javascript:void(null);" class="toggle" id="gle4">
+                    <img src="images/icons/toggle-plus.jpg" class="close" alt=""/>
+                    <img src="images/icons/toggle-min.jpg" class="open" style="display:none;" alt=""/>
+                </a>
+                <img src="images/icons/delete.jpg" class="delete" alt=""/>
+                </div>
+            </div>
+            <div class="box-780-body" id="toggle4">
+              <form id="form_1" action="" method="post">
+                <table class="sortable" id="tb-2">
+                    <tr>
+                        <th class="th-8"></th>
+                        <th class="th-9">Photo</th>
+                        <th class="th-10">Name</th>
+                        <th class="th-11">Code</th>
+                        <th class="th-12">Price</th>
+                        <th class="th-13">Move</th>
+                        <th class="th-14">Actions</th>
+                        <th class="th-15">Info</th>
+                    </tr>
+                    <tr>
+                        <td class="td-8"><input type="checkbox" name="form1" value="1" /></td>
+                        <td class="td-9">
+                        	<a href="images/img1-big.jpg" class="lightbox2" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+                            <img src="images/img1.jpg" alt="" />
+                            </a>
+                        </td>
+                        <td class="td-10">AP Administration Panel</td>
+                        <td class="td-11">DXC-475134-A</td>
+                        <td class="td-12">$1207,89</td>
+                        <td class="td-13">
+                            <a href="#"><img src="images/icons/up.png" alt=""/></a>
+                            <a href="#"><img src="images/icons/down.png" alt=""/></a>
+                        </td>
+                        <td class="td-14">
+                            <a href="#"><img src="images/icons/star-empty.png" alt=""/></a>
+                            <a href="#"><img src="images/icons/table-excel.png" alt=""/></a>
+                            <a href="#"><img src="images/icons/sticky.png" alt=""/></a>
+                            <a href="#"><img src="images/icons/delete.png" alt=""/></a>
+                        </td>
+                        <td class="td-15"><img src="images/icons/information.png" alt=""/></td>
+                    </tr> 
+                    <tr>
+                        <td class="td-8"><input type="checkbox" name="form1" value="2" /></td>
+                        <td class="td-9">
+                        	<a href="images/img2-big.jpg" class="lightbox2" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+                            <img src="images/img2.jpg" alt="" />
+                            </a>
+                        </td>
+                        <td class="td-10">AP Administration Panel</td>
+                        <td class="td-11">DXA-275134-H</td>
+                        <td class="td-12">$1100,00</td>
+                        <td class="td-13">
+                            <a href="#"><img src="images/icons/up.png" alt=""/></a>
+                            <a href="#"><img src="images/icons/down.png" alt=""/></a>
+                        </td>
+                        <td class="td-14">
+                            <a href="#"><img src="images/icons/star.png" alt=""/></a>
+                            <a href="#"><img src="images/icons/table-excel.png" alt=""/></a>
+                            <a href="#"><img src="images/icons/sticky.png" alt=""/></a>
+                            <a href="#"><img src="images/icons/delete.png" alt=""/></a>
+                        </td>
+                        <td class="td-15"><img src="images/icons/information.png" alt=""/></td>
+                    </tr>  
+                    <tr>
+                        <td class="td-8"><input type="checkbox" name="form1" value="3"/></td>
+                        <td class="td-9">
+                        	<a href="images/img3-big.jpg" class="lightbox2" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+                            <img src="images/img3.jpg" alt="" />
+                            </a>
+                        </td>
+                        <td class="td-10">AP Administration Panel</td>
+                        <td class="td-11">DXC-475777-A</td>
+                        <td class="td-12">$12,09</td>
+                        <td class="td-13">
+                            <a href="#"><img src="images/icons/up.png" alt=""/></a>
+                            <a href="#"><img src="images/icons/down.png" alt=""/></a>
+                        </td>
+                        <td class="td-14">
+                            <a href="#"><img src="images/icons/star-empty.png" alt=""/></a>
+                            <a href="#"><img src="images/icons/table-excel.png" alt=""/></a>
+                            <a href="#"><img src="images/icons/sticky.png" alt=""/></a>
+                            <a href="#"><img src="images/icons/delete.png" alt=""/></a>
+                        </td>
+                        <td class="td-15"><img src="images/icons/information.png" alt=""/></td>
+                    </tr>                                                              
+                    <tr>
+                        <td class="td-8"><input type="checkbox" name="form1" value="4" /></td>
+                        <td class="td-9">
+                        	<a href="images/img4-big.jpg" class="lightbox2" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+                            <img src="images/img4.jpg" alt="" />
+                            </a>
+                        </td>
+                        <td class="td-10">AP Administration Panel</td>
+                        <td class="td-11">DXC-470000-A</td>
+                        <td class="td-12">$808,19</td>
+                        <td class="td-13">
+                            <a href="#"><img src="images/icons/up.png" alt=""/></a>
+                            <a href="#"><img src="images/icons/down.png" alt=""/></a>
+                        </td>
+                        <td class="td-14">
+                            <a href="#"><img src="images/icons/star.png" alt=""/></a>
+                            <a href="#"><img src="images/icons/table-excel.png" alt=""/></a>
+                            <a href="#"><img src="images/icons/sticky.png" alt=""/></a>
+                            <a href="#"><img src="images/icons/delete.png" alt=""/></a>
+                        </td>
+                        <td class="td-15"><img src="images/icons/information.png" alt=""/></td>
+                    </tr> 
+               </table>
+               <div class="myform-btn">
+                   <div class="myform-check">
+                       <a href="javascript:void(null);" id="checkall" onclick="boxes_checkall(document.getElementById('form_1'),1);">&nbsp;</a>
+                       <a href="javascript:void(null);" id="uncheckall" onclick="boxes_checkall(document.getElementById('form_1'),0);">&nbsp;</a>
+                       <a href="javascript:void(null);" id="delete-btn" >&nbsp;</a>
+                    </div>   
+                      <div class="page-nav">
+                          <ul>
+                              <li><a href="#" id="prev">&nbsp;</a></li>
+                              <li><a href="#">1</a></li>
+                              <li><a href="#">2</a></li>
+                              <li><a href="#">3</a></li>
+                              <li><a href="#" class="currentpage">4</a></li>
+                              <li><a href="#">5</a></li>
+                              <li><a href="#">6</a></li>
+                              <li><a href="#">9</a> [...] </li>
+                              <li><a href="#">27</a></li>
+                              <li><a href="#">28</a></li>
+                              <li><a href="#" id="next">&nbsp;</a></li>
+                          </ul>
+                      </div>    
+               </div>
+             </form>
+            </div>
+        </li> 
+        <li>
+            <div class="box-780-head">
+                <h2>Fields</h2>
+                <div class="bnav2">
+                <a href="javascript:void(null);" class="toggle" id="gle5">
+                    <img src="images/icons/toggle-plus.jpg" class="close" alt=""/>
+                    <img src="images/icons/toggle-min.jpg" class="open" style="display:none;" alt=""/>
+                </a>
+                <img src="images/icons/delete.jpg" class="delete" alt=""/>
+                </div>
+            </div>
+            <div class="box-780-body" id="toggle5">
+                <div class="inputfield">
+                	<label for="field1">Normal Field:</label> <input type="text" name="field1" id="field1" />
+                </div>
+                <div class="inputfield">
+                <label for="field2">Dropdown:</label>
+                <select name="field3" id="field2">
+                    <option value="">Option 1</option>
+                    <option value="">Option 2</option>
+                    <option value="">Option 3</option>
+                    <option value="">Option 4</option>
+                </select>
+                </div>
+                <div class="inputfield">
+                	<label for="field3">Check Box:</label>
+                    <div> 
+                      <input type="checkbox" name="field3" id="field3" />Yes
+                    </div>
+                    <div> 
+                      <input type="checkbox" name="field3" id="field4" />No
+                    </div>
+                </div>
+                <div class="inputfield">
+                	<label for="field5">Radio Box:</label>
+                    <div> 
+                      <input type="radio" name="field4" id="field5" />Yes
+                    </div>
+                    <div> 
+                      <input type="radio" name="field4" id="field6" />No
+                    </div>
+                </div> 
+                <div class="inputfield">
+                	<label for="field7">Long Field:</label> <input class="longfield" type="text" name="field7" id="field7" />
+                </div>                
+                <div class="textfield">
+                	<label for="field8">Textarea:</label> <textarea cols="" rows="" id="field8" ></textarea>
+                </div>                   
+                <div class="send-btn"><button  id="send-form" value="" type="button" name=""></button></div>          
+            </div>
+        </li>  
+        <li>
+          <form method="post" action="">
+            <div class="box-780-head">
+                <h2>WYSIWYG Editor</h2>
+                <div class="bnav2">
+                <a href="javascript:void(null);" class="toggle" id="gle6">
+                    <img src="images/icons/toggle-plus.jpg" class="close" alt=""/>
+                    <img src="images/icons/toggle-min.jpg" class="open" style="display:none;" alt=""/>
+                </a>
+                <img src="images/icons/delete.jpg" class="delete" alt=""/>
+                </div>
+            </div>
+            <div class="box-780-body" id="toggle6">
+                <div class="editor">
+                      <textarea name="html" id="html" cols="" rows="">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel odio a purus ornare aliquet in et erat. Mauris at elit pretium massa eleifend rhoncus quis eu est. Aenean eu lorem tortor. Nulla eu feugiat mi. Fusce at metus sed urna luctus consectetur. Nullam justo ligula, tempor et ultrices nec, pharetra non lacus.Vivamus, vitae lacinia magna. Proin enim leo, bibendum viverra fringilla eget, sollicitudin sit amet massa. Vestibulum molestie neque at dui convallis mollis. In non erat vel ante posuere eleifend.
+                      </textarea>
+                  [ <a href="javascript:void(null);" id="remove" rel="on">Switch to simple mode</a> ]
+                  </div> 
+                  <div class="send-btn-2"><button  id="send-editor" value="" type="button" name=""></button></div>         
+            </div>
+           </form>
+        </li>                      
+      </ul>  
+                                        
+      </div><!--| end col-left-780 |-->
+      
+      <!-- next collom -->
+      
+      <div id="col-right-200">
+
+         <div id="datepicker"></div>
+
+     	 <div class="box-right-200">
+         	<div class="box-right-200-head"><h3>Photo gallery</h3></div>
+            <div class="box-right-200-body">
+            	<a href="images/img1-big.jpg" class="lightbox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+                	<img src="images/img1.jpg" alt="" style="margin:0 6px 6px 0;"/>
+                </a>
+                <a href="images/img2-big.jpg" class="lightbox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+                	<img src="images/img2.jpg" alt="" style="margin:0 0px 6px 0;"/>
+                </a>
+                <a href="images/img3-big.jpg" class="lightbox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+                	<img src="images/img3.jpg" alt="" style="margin:0 6px 6px 0;"/>
+                </a>
+                <a href="images/img4-big.jpg" class="lightbox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+               	    <img src="images/img4.jpg" alt="" style="margin:0 0px 6px 0;"/>
+                </a>
+            	<a href="images/img1-big.jpg" class="lightbox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+                	<img src="images/img1.jpg" alt="" style="margin:0 6px 6px 0;"/>
+                </a>
+                <a href="images/img2-big.jpg" class="lightbox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+                	<img src="images/img2.jpg" alt="" style="margin:0 0px 6px 0;"/>
+                </a>
+                <a href="images/img3-big.jpg" class="lightbox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+                	<img src="images/img3.jpg" alt="" style="margin:0 6px 6px 0;"/>
+                </a>
+                <a href="images/img4-big.jpg" class="lightbox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+               	    <img src="images/img4.jpg" alt="" style="margin:0 0px 6px 0;"/>
+                </a>
+                
+                    <div class="add-photo-btn">
+                        <a href="#" class="add-photo-btn-a" title="">&nbsp;</a>
+                    </div>
+                    <div class="view-photo-btn">
+                        <a href="#" class="view-photo-btn-a" title="">&nbsp;</a>
+                    </div>                
+            </div>
+         </div><!--| end box-right-200 |-->
+                         
+     	 <div class="box-right-200">
+         	<div class="box-right-200-head"><h3>Sidebar menu</h3></div>
+            <div class="box-right-200-body">
+              <ul id="sec-nav"> 
+              	<li><div><img src="images/icons/bullet.png" alt="" /> <a href="#" title="">User Accounts</a></div></li>
+                <li><div><img src="images/icons/bullet.png" alt="" /> <a href="#" title="">Page Management</a></div></li>
+                <li><div><img src="images/icons/bullet.png" alt="" /> <a href="#" title="">Statistics</a></div></li>
+                <li><div><img src="images/icons/bullet.png" alt="" /> <a href="#" title="">Products Management</a></div></li>
+                <li><div><img src="images/icons/bullet.png" alt="" /> <a href="#" title="">Server Settings</a></div></li>
+                <li><div><img src="images/icons/bullet.png" alt="" /> <a href="#" title="">Settings</a></div></li>
+              </ul> 
+            </div>
+         </div><!--| end box-right-200 |-->
+         
+     	 <div class="box-right-200">
+         	<div class="box-right-200-head"><h3>News</h3></div>
+            <div class="box-right-200-body">
+            
+            	<div class="cycle-1">
+                    <div>
+                     <h3>AP a massive adminpanel</h3>
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum ultrices ipsum at viverra. Praesent luctus mattis neque, vitae congue magna molestie nec. Vivamus tempus tempor velit eu pretium.
+                     <br/>
+                     <a href="#" title="">more...</a>
+                    </div>
+                    <div>
+                     <h3>Packed with stuff</h3>
+                    Vivamus nibh neque, porttitor vel volutpat eu, consectetur eget eros. Donec vehicula egestas nisi sit amet venenatis. Cras lacinia dolor a nibh feugiat hendrerit. Fusce ac metus vel justo scelerisque feugiat.
+                     <br/>
+                     <a href="#" title="">more...</a>
+                    </div>
+                    <div>
+                     <h3>Nice UserInterface</h3>
+                    Aenean quis iaculis eros. Nunc vel libero eros, vel ultricies nisi. Cras accumsan, nunc id dapibus placerat, eros felis blandit urna, eu gravida urna tortor sit amet enim..
+                     <br/>
+                     <a href="#" title="">more...</a>
+                    </div>                    
+                </div>
+                
+            </div>
+         </div><!--| end box-right-200 |-->
+
+     	 <div class="box-right-200">
+         	<div class="box-right-200-head"><h3>Buttons</h3></div>
+            <div class="box-right-200-body">
+                <div class="btn-row">
+                    <img src="images/delete.jpg" alt=""/>
+                    <img src="images/delete-hover.jpg" alt=""/>
+                </div>
+                <div class="btn-row">
+                    <img src="images/next.jpg" alt=""/>
+                    <img src="images/next-hover.jpg" alt=""/>
+                </div>                
+                <div class="btn-row">
+                    <img src="images/prev.jpg" alt=""/>
+                    <img src="images/prev-hover.jpg" alt=""/>
+                </div>  
+                <div class="btn-row">
+                    <img src="images/send.jpg" alt=""/>
+                    <img src="images/send-hover.jpg" alt=""/>
+                </div> 
+                <div class="btn-row">
+                    <img src="images/login.jpg" alt=""/>
+                    <img src="images/login-hover.jpg" alt=""/>
+                </div>                   
+                <div class="btn-row">
+                    <img src="images/view-photo-btn.jpg" alt=""/>
+                    <img src="images/view-photo-btn-hover.jpg" alt=""/>
+                </div>
+                <div class="btn-row">
+                    <img src="images/add-photo-btn.jpg" alt=""/>
+                    <img src="images/add-photo-btn-hover.jpg" alt=""/>
+                </div>                
+                <div class="btn-row">
+                    <img src="images/check-all.jpg" alt=""/>
+                    <img src="images/check-all-hover.jpg" alt=""/>
+                </div>  
+                <div class="btn-row">
+                    <img src="images/uncheck-all.jpg" alt=""/>
+                    <img src="images/uncheck-all-hover.jpg" alt=""/>
+                </div>               
+            </div>
+         </div><!--| end box-right-200 |-->
+                  
+      </div><!--| end col-right-200 |-->
+      <div id="col-1000">
+         <ul id="sortable2">
+            <li>
+             <div class="box-1000-head">
+                <h2>One colomn box 1</h2>
+                <div class="bnav2">
+                <a href="javascript:void(null);" class="toggle" id="gle7">
+                    <img src="images/icons/toggle-plus.jpg" class="close" alt=""/>
+                    <img src="images/icons/toggle-min.jpg" class="open" style="display:none;" alt=""/>
+                </a>
+                <img src="images/icons/delete.jpg" class="delete" alt=""/>
+                </div>
+            </div>
+            <div class="box-1000-body" id="toggle7">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac nulla quam. Nulla quis quam lectus, id mollis lacus. Nullam et risus id mauris pulvinar posuere quis vitae sapien. Sed nec odio nisl, sed tristique est. Vestibulum convallis semper sapien at tempor. Etiam egestas libero odio, id interdum erat. Ut ultrices purus ac est vulputate eu blandit leo bibendum. Nam purus lorem, placerat non aliquam a, interdum vel augue.     
+            </div>
+           </li>
+           
+           <li>
+             <div class="box-1000-head">
+                <h2>One colomn box 2</h2>
+                <div class="bnav2">
+                <a href="javascript:void(null);" class="toggle" id="gle8">
+                    <img src="images/icons/toggle-plus.jpg" class="close" alt=""/>
+                    <img src="images/icons/toggle-min.jpg" class="open" style="display:none;" alt=""/>
+                </a>
+                <img src="images/icons/delete.jpg" class="delete" alt=""/>
+                </div>
+            </div>
+            <div class="box-1000-body" id="toggle8">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac nulla quam. Nulla quis quam lectus, id mollis lacus. Nullam et risus id mauris pulvinar posuere quis vitae sapien. Sed nec odio nisl, sed tristique est. Vestibulum convallis semper sapien at tempor.
+          </li>          
+         </ul>  
+          
+       </div><!--| end col-1000 |-->
+    </div><!--| end content |-->
+ </div><!--| end container |-->
+ 
+ <!--| FOOTER/BOTTOM |-->
+ <div id="footer">
+     <div id="footer-top">
+        <div class="footer-wrap-t">
+            <p><a href="#">Extra link</a> | <a href="#">Extra link</a> | <a href="#">Extra link</a> | <a href="#">Extra link</a> | <a href="#">Extra link</a></p>
+            <img src="images/logo-small.jpg" alt=""/>
+        </div>
+     </div>
+     <div id="footer-bottom">
+        <div class="footer-wrap-b">© 2009 AP Administration Panel. Theme by Mark Dijkstra for ThemeForest. Icons bij <a href="http://www.pinvoke.com/">pinvoke</a></div>
+     </div>
+ </div>
+</body>
+</html>
